@@ -173,7 +173,7 @@ class BoardComponent extends JComponent {
     private BufferedImage img;
     public BoardComponent() {
     	try {
-    		img = ImageIO.read(new File("resource/uiuc.jpeg"));
+    		img = ImageIO.read(new File("uiuc.jpeg"));
     		
     	} catch(IOException e) {
     		e.printStackTrace();
